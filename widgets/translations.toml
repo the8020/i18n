@@ -1,0 +1,10 @@
+schema = 1
+title = "Translations"
+icon = "translate"
+category = "administration"
+
+[open]
+program = "the8020/i18n/translations"
+
+[visible]
+permission = "the8020.i18n.translations.edit"

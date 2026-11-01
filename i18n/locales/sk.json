@@ -1,0 +1,20 @@
+{
+  "name": "Slovenčina",
+  "texts": {
+    "validation.invalid": "Zadaná hodnota nie je platná.",
+    "validation.required": "Zadajte hodnotu.",
+    "validation.type": "Zadajte hodnotu očakávaného typu.",
+    "validation.text.minimum": "Zadajte aspoň {limit} znakov.",
+    "validation.text.maximum": "Zadajte najviac {limit} znakov.",
+    "validation.items.minimum": "Vyberte aspoň {limit} položiek.",
+    "validation.items.maximum": "Vyberte najviac {limit} položiek.",
+    "validation.value.minimum": "Minimálna hodnota je {limit}.",
+    "validation.value.maximum": "Maximálna hodnota je {limit}.",
+    "validation.choice": "Vyberte povolenú hodnotu.",
+    "validation.format": "Zadajte hodnotu v správnom formáte.",
+    "validation.multiple": "Zadajte násobok {limit}.",
+    "service.internalError": "Vnútorná chyba servera",
+    "service.invalidJSON": "Telo požiadavky musí byť platný JSON.",
+    "languages.defaultLanguage": "Predvolený jazyk systému"
+  }
+}

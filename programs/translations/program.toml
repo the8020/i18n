@@ -1,0 +1,4 @@
+schema = 1
+description = "Translations"
+entrypoint = "program.ts"
+uui = true
