@@ -1,6 +1,7 @@
 import { text } from "./mod.ts";
 import { msg } from "/p/the8020/i18n/i18n/messages.ts";
 import { field, z } from "/p/the8020/db/fields.ts";
+import { builtinLanguages } from "./languages.ts";
 
 export const language = field(
   z.string().min(1).max(64).refine((value) => {
@@ -64,7 +65,7 @@ export const configuration = z.object({
 export type Configuration = z.infer<typeof configuration>;
 export const defaultConfiguration: Configuration = {
   defaultLanguage: "en",
-  languages: [{ code: "en", name: "English" }, { code: "cs", name: "Čeština" }],
+  languages: builtinLanguages,
   fallbacks: {},
 };
 

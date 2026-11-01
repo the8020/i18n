@@ -125,10 +125,11 @@ Default section order:
 
 - Configuration is one `i18n.configuration` row in system settings. Complete
   per-language fallback arrays are deduplicated with English last, not expanded
-  recursively. English and Czech are enabled initially; English is the system
-  default. `defaultLoginLanguage` independently selects the initial login-screen
-  language; absent settings inherit the system default. Both defaults must be
-  enabled languages.
+  recursively. All 43 built-in languages in `languages.ts` are enabled
+  initially; saved language configurations remain unchanged. English is the
+  system default. `defaultLoginLanguage` independently selects the initial
+  login-screen language; absent settings inherit the system default. Both
+  defaults must be enabled languages.
 - Configuration and merged package dictionaries refresh on use after five
   seconds. No poller or invalidation service exists. A retained Localization
   keeps its loaded dictionaries. Customer edits clear the current Worker cache.
@@ -139,9 +140,27 @@ Default section order:
   English source text keeps unscoped tools and tests usable without loading
   catalogs.
 - `check.ts <package-root>...` rejects duplicate/blank keys, invalid catalog
-  language names, unknown translated keys and variable mismatches. English is
-  complete; `--complete=cs` requires Czech key parity for first-party package
-  checks. Other catalogs may be partial. It does not statically analyze code.
+  language names, unknown translated keys, and variable/icon mismatches. English
+  is complete; `--complete=builtin` requires every language in `languages.ts` to
+  cover all English keys in first-party packages. Custom catalogs may be
+  partial. It does not statically analyze code.
+- The checker also reports advisory length increases using Tuxee's thresholds:
+  at least 75% and 8 extra graphemes for English texts up to 30 graphemes, or
+  100% and 20 extra graphemes for longer texts. Named variables and icon markup
+  each count as one grapheme. The console shows the ten largest increases;
+  `--length-report=/tmp/i18n-length-report.json` writes all warnings when run
+  with write permission for that file. Warnings do not fail catalog checks.
+  Review short labels in context; keep natural wording, meaning, destructive
+  distinctions, and accessibility. Grapheme counts are not pixel measurements.
+
+- `languages.ts` owns the first-party supported set, matching Tuxee: `ar`, `bg`,
+  `ca`, `cs`, `da`, `de`, `el`, `en`, `es`, `et`, `fa`, `fi`, `fil`, `fr`, `he`,
+  `hi`, `hr`, `hu`, `id`, `is`, `it`, `ja`, `ko`, `lt`, `lv`, `ms`, `nb`, `nl`,
+  `pl`, `pt-BR`, `pt-PT`, `ro`, `ru`, `sk`, `sl`, `sr-Latn`, `sv`, `th`, `tr`,
+  `uk`, `vi`, `zh-CN`, `zh-TW`. Keep the Portuguese and Chinese variants
+  distinct, Serbian in Latin script, and language display names native. Each
+  package ships ordinary JSON files; only the selected fallback chain is loaded
+  at runtime.
 
 - Catalogs use `i18n/locales/<language>.json` with `name` and flat `texts`.
 - Message identity is full package ID plus key. Only explicit references are
@@ -157,6 +176,8 @@ Default section order:
 
 - Use ordinary JSON, named variables, Zod, and UUI programs. Keep catalog and
   request caches bounded; avoid background work and new dependencies.
+- Preserve the visual order of mixed-direction names such as `80|20` in
+  right-to-left catalogs with Unicode directional isolates.
 
 # Verification
 

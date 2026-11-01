@@ -101,7 +101,15 @@ async function boot(headers: Record<string, string>) {
 assertEquals((await boot({ authorization: auth })).localization.language, "pt");
 const sk = await boot({ authorization: auth, "the8020-language": "sk" });
 assertEquals(sk.localization.language, "sk");
-assertEquals(sk.localization.texts["shell.takenOver"], "Customer CS");
+const slovakShell = JSON.parse(
+  await Deno.readTextFile(
+    `${root}/packages/the8020/uui/i18n/locales/sk.json`,
+  ),
+);
+assertEquals(
+  sk.localization.texts["shell.takenOver"],
+  slovakShell.texts["shell.takenOver"],
+);
 assertEquals(sk.localization.texts["shell.connected"], "Pripojené");
 const invalid = await request("/the8020/uui/shell/", {
   headers: { authorization: auth, "the8020-language": "de" },
@@ -182,6 +190,11 @@ assertEquals(accountSession.status, 204);
 const accountId = accountSession.headers.get("the8020-session");
 assert(accountId);
 let accountScreen;
+const slovakUsers = JSON.parse(
+  await Deno.readTextFile(
+    `${root}/packages/the8020/users/i18n/locales/sk.json`,
+  ),
+);
 for (
   const command of [
     { op: "screen" },
@@ -191,9 +204,9 @@ for (
   ]
 ) {
   if (command.op === "set") {
-    const field = /field: "([^"]+)"\n\s+label: "Language"/.exec(
-      accountScreen.transcript,
-    );
+    const field = [...accountScreen.transcript.matchAll(
+      /field: "([^"]+)"\n\s+label: "([^"]+)"/g,
+    )].find((match) => match[2] === slovakUsers.texts["user.language"]);
     assert(field);
     command.id = field[1]!;
   }

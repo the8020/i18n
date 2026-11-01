@@ -10,7 +10,22 @@ import {
 } from "./mod.ts";
 import { format, variables } from "./messages.ts";
 import { mergeCatalogs, readCatalog } from "./store.ts";
-import { configuration } from "./fields.ts";
+import { configuration, defaultConfiguration } from "./fields.ts";
+import { builtinLanguages } from "./languages.ts";
+
+Deno.test("fresh configuration enables all curated languages without changing saved settings", () => {
+  const defaults = configuration.parse(defaultConfiguration);
+  assertEquals(defaults.defaultLanguage, "en");
+  assertEquals(defaults.languages, builtinLanguages);
+  assertEquals(defaults.languages.length, 43);
+  for (const { code } of defaults.languages) {
+    assertEquals(
+      fallbackChain(defaults, code),
+      code === "en" ? ["en"] : [code, "en"],
+    );
+  }
+  assertEquals(configuration.parse(config).languages, config.languages);
+});
 
 const config = {
   defaultLanguage: "en",
