@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakkinn hefur engan enskan textalista.",
     "languages.defaultLoginLanguage": "Sjálfgefið innskráningarmál",
     "languages.defaultLoginLanguageHelp": "Tungumál innskráningarsíðunnar þegar þessi vafri hefur ekkert vistað val.",
-    "validation.login_language_enabled": "Sjálfgefna innskráningarmálið verður að vera virkt."
+    "validation.login_language_enabled": "Sjálfgefna innskráningarmálið verður að vera virkt.",
+    "errors.invalid_package_id": "Ógildi kennitölu.",
+    "errors.unknown_english_text_key": "Óþekktur enska textaknall.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Þýðing þarf að hafa text og sömu breytur og í ensku."
   }
 }

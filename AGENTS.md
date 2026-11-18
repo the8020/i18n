@@ -139,6 +139,10 @@ Default section order:
   single-pass formatting; missing keys/variables remain visible as `[!key]`.
   English source text keeps unscoped tools and tests usable without loading
   catalogs.
+- `localizedText(reference)` prepares the owning catalog on demand and formats
+  within the current language scope. Outside a scope it uses the English source
+  without storage I/O. Use it for asynchronous shared validation/errors; prepare
+  synchronous validators at their owning asynchronous boundary.
 - `check.ts <package-root>...` rejects duplicate/blank keys, invalid catalog
   language names, unknown translated keys, and variable/icon mismatches. English
   is complete; `--complete=builtin` requires every language in `languages.ts` to

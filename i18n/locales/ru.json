@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "У пакета нет английского каталога.",
     "languages.defaultLoginLanguage": "Язык входа по умолчанию",
     "languages.defaultLoginLanguageHelp": "Язык экрана входа, если в этом браузере ещё не сохранён выбор.",
-    "validation.login_language_enabled": "Язык входа по умолчанию должен быть включён."
+    "validation.login_language_enabled": "Язык входа по умолчанию должен быть включён.",
+    "errors.invalid_package_id": "Недействительный идентификатор упаковки.",
+    "errors.unknown_english_text_key": "Неизвестный английский текстовый ключ.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Перевод должен содержать текст и те же переменные, что и на английском."
   }
 }

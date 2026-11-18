@@ -34,7 +34,7 @@
     "languages.defaultLanguage": "שפת ברירת המחדל של המערכת",
     "fields.a_language_code_such_as_en_cs": "קוד שפה כגון en, cs, sk או pt-BR.",
     "program.packageid_code": "{packageId} · {code}",
-    "package.description": "תרגומי חבילות והגדרת שפות ב־\u206680|20\u2069",
+    "package.description": "תרגומי חבילות והגדרת שפות ב־⁦80|20⁩",
     "widgets.translations.title": "תרגומים",
     "widgets.languages.title": "שפות",
     "categories.administration.title": "ניהול",
@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "לחבילה אין קטלוג באנגלית.",
     "languages.defaultLoginLanguage": "שפת ברירת המחדל בכניסה",
     "languages.defaultLoginLanguageHelp": "שפת מסך הכניסה כאשר אין בדפדפן בחירה שמורה.",
-    "validation.login_language_enabled": "שפת ברירת המחדל בכניסה חייבת להיות מופעלת."
+    "validation.login_language_enabled": "שפת ברירת המחדל בכניסה חייבת להיות מופעלת.",
+    "errors.invalid_package_id": "תעודת זהות חבילה לא תקופה.",
+    "errors.unknown_english_text_key": "מפתח טקסט אנגלי לא ידוע.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "התרגום חייב להכיל טקסט ואותם משתנים כמו באנגלית."
   }
 }

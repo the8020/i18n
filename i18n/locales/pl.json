@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakiet nie ma katalogu w języku angielskim.",
     "languages.defaultLoginLanguage": "Domyślny język logowania",
     "languages.defaultLoginLanguageHelp": "Język ekranu logowania, gdy przeglądarka nie ma zapisanego wyboru.",
-    "validation.login_language_enabled": "Domyślny język logowania musi być włączony."
+    "validation.login_language_enabled": "Domyślny język logowania musi być włączony.",
+    "errors.invalid_package_id": "Nieważny identyfikator pakietu.",
+    "errors.unknown_english_text_key": "Nieznany klucz angielski.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Tłumaczenie musi zawierać tekst i te same zmienne jak w języku angielskim."
   }
 }

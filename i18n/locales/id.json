@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paket tidak memiliki katalog Inggris.",
     "languages.defaultLoginLanguage": "Bahasa default login",
     "languages.defaultLoginLanguageHelp": "Bahasa layar login jika browser ini tidak memiliki pilihan tersimpan.",
-    "validation.login_language_enabled": "Bahasa default login harus diaktifkan."
+    "validation.login_language_enabled": "Bahasa default login harus diaktifkan.",
+    "errors.invalid_package_id": "ID paket yang tidak valid.",
+    "errors.unknown_english_text_key": "Kunci teks bahasa Inggris yang tidak diketahui.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Terjemahan harus berisi teks dan variabel yang sama dengan bahasa Inggris."
   }
 }

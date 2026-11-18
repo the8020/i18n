@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "El paquet no té catàleg en anglès.",
     "languages.defaultLoginLanguage": "Idioma predeterminat d'inici de sessió",
     "languages.defaultLoginLanguageHelp": "Idioma de la pantalla d'inici de sessió quan aquest navegador no té cap elecció desada.",
-    "validation.login_language_enabled": "L'idioma predeterminat d'inici de sessió ha d'estar habilitat."
+    "validation.login_language_enabled": "L'idioma predeterminat d'inici de sessió ha d'estar habilitat.",
+    "errors.invalid_package_id": "Identificació de paquet invalida.",
+    "errors.unknown_english_text_key": "Títol de text en anglès desconegut.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "La traducció ha de contenir text i les mateixes variables que l'anglès."
   }
 }

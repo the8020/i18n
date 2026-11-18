@@ -34,7 +34,7 @@
     "languages.defaultLanguage": "لغة النظام الافتراضية",
     "fields.a_language_code_such_as_en_cs": "رمز لغة مثل en أو cs أو sk أو pt-BR.",
     "program.packageid_code": "{packageId} · {code}",
-    "package.description": "ترجمات حزم \u206680|20\u2069 وإعداد اللغات",
+    "package.description": "ترجمات حزم ⁦80|20⁩ وإعداد اللغات",
     "widgets.translations.title": "الترجمات",
     "widgets.languages.title": "اللغات",
     "categories.administration.title": "الإدارة",
@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "لا تحتوي الحزمة على ملف نصوص إنجليزية.",
     "languages.defaultLoginLanguage": "لغة تسجيل الدخول الافتراضية",
     "languages.defaultLoginLanguageHelp": "لغة شاشة تسجيل الدخول عندما لا يحتوي هذا المتصفح على اختيار محفوظ.",
-    "validation.login_language_enabled": "يجب تفعيل لغة تسجيل الدخول الافتراضية."
+    "validation.login_language_enabled": "يجب تفعيل لغة تسجيل الدخول الافتراضية.",
+    "errors.invalid_package_id": "هوية الحزمة غير صالحة.",
+    "errors.unknown_english_text_key": "مفتاح النص الإنجليزي غير معروف",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "يجب أن يحتوي الترجمة على النص والمتغيرات نفسها مثل اللغة الإنجليزية."
   }
 }

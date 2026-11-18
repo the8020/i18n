@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "套件沒有英語目錄。",
     "languages.defaultLoginLanguage": "預設登入語言",
     "languages.defaultLoginLanguageHelp": "此瀏覽器未儲存語言選擇時，登入螢幕使用的語言。",
-    "validation.login_language_enabled": "預設登入語言必須已啟用。"
+    "validation.login_language_enabled": "預設登入語言必須已啟用。",
+    "errors.invalid_package_id": "沒有有效的包裝身份證.",
+    "errors.unknown_english_text_key": "沒有英語文字鍵.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "翻譯必須包含文字和與英語相同的變量."
   }
 }

@@ -3,6 +3,7 @@ import { context } from "@the8020/context";
 import {
   fallbackChain,
   Localization,
+  localizedText,
   messages,
   prepareTexts,
   text,
@@ -163,4 +164,26 @@ Deno.test("catalog files stay inside the owning package", async () => {
   } finally {
     await Deno.remove(root, { recursive: true });
   }
+});
+
+Deno.test("on-demand messages prepare a cold catalog once and retain unscoped source text", async () => {
+  const message = messages("example/errors", {
+    denied: "Permission denied: {name}",
+  })("denied", { name: "A{B}" });
+  assertEquals(await localizedText(message), "Permission denied: A{B}");
+  let loads = 0;
+  const localization = new Localization("cs", config, (packageId, chain) => {
+    loads++;
+    assertEquals(chain, ["cs", "en"]);
+    return Promise.resolve({
+      package: packageId,
+      language: "cs",
+      texts: { denied: "Přístup odepřen: {name}" },
+    });
+  });
+  await withLocalization(localization, async () => {
+    assertEquals(await localizedText(message), "Přístup odepřen: A{B}");
+    assertEquals(await localizedText(message), "Přístup odepřen: A{B}");
+    assertEquals(loads, 1);
+  });
 });

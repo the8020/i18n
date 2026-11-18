@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Package has no English catalog.",
     "languages.defaultLoginLanguage": "Default login language",
     "languages.defaultLoginLanguageHelp": "Language of the login screen when this browser has no saved choice.",
-    "validation.login_language_enabled": "The default login language must be enabled."
+    "validation.login_language_enabled": "The default login language must be enabled.",
+    "errors.invalid_package_id": "Invalid package ID.",
+    "errors.unknown_english_text_key": "Unknown English text key.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Translation must contain text and the same variables as English."
   }
 }

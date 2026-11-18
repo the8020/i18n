@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakken har ingen engelsk katalog.",
     "languages.defaultLoginLanguage": "Standard påloggingsspråk",
     "languages.defaultLoginLanguageHelp": "Språket på påloggingsskjermen når denne nettleseren ikke har et lagret valg.",
-    "validation.login_language_enabled": "Standard påloggingsspråk må være aktivert."
+    "validation.login_language_enabled": "Standard påloggingsspråk må være aktivert.",
+    "errors.invalid_package_id": "Ugyldig pakketid.",
+    "errors.unknown_english_text_key": "Ukjent engelsk tekstnøkkel.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Oversettelsen må inneholde tekst og de samme variabler som engelsk."
   }
 }

@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Het pakket heeft geen Engelse catalogus.",
     "languages.defaultLoginLanguage": "Standaardtaal voor aanmelden",
     "languages.defaultLoginLanguageHelp": "Taal van het aanmeldscherm als deze browser geen opgeslagen keuze heeft.",
-    "validation.login_language_enabled": "De standaardtaal voor aanmelden moet zijn ingeschakeld."
+    "validation.login_language_enabled": "De standaardtaal voor aanmelden moet zijn ingeschakeld.",
+    "errors.invalid_package_id": "Niet geldig pakket-ID.",
+    "errors.unknown_english_text_key": "Onbekende Engelse tekstsleutel.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "De vertaling moet tekst en dezelfde variabelen bevatten als in het Engels."
   }
 }

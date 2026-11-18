@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Ce paquet n’a pas de catalogue anglais.",
     "languages.defaultLoginLanguage": "Langue de connexion par défaut",
     "languages.defaultLoginLanguageHelp": "Langue de l’écran de connexion lorsque ce navigateur n’a aucun choix enregistré.",
-    "validation.login_language_enabled": "La langue de connexion par défaut doit être activée."
+    "validation.login_language_enabled": "La langue de connexion par défaut doit être activée.",
+    "errors.invalid_package_id": "Identification de colis invalide.",
+    "errors.unknown_english_text_key": "clé de texte anglais inconnue.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "La traduction doit contenir du texte et les mêmes variables que l'anglais."
   }
 }

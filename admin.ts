@@ -1,3 +1,5 @@
+import { localizedText as resolveMessage } from "/p/the8020/i18n/mod.ts";
+import { msg as messageSymbol } from "/p/the8020/i18n/i18n/messages.ts";
 import { db } from "/p/the8020/db/mod.ts";
 import { requirePermission } from "/p/the8020/auth/mod.ts";
 import Settings from "/p/the8020/system/tables/settings.ts";
@@ -28,12 +30,16 @@ export async function saveTranslation(
 ): Promise<void> {
   await requirePermission("the8020.i18n.translations.edit", packageId);
   if (!packagePattern.test(packageId)) {
-    throw new TypeError("Invalid package ID.");
+    throw new TypeError(
+      await resolveMessage(messageSymbol("errors.invalid_package_id")),
+    );
   }
   code = language.parse(code);
   const source = (await readCatalog(packageId, "en"))?.texts;
   if (!source || !Object.hasOwn(source, key)) {
-    throw new TypeError("Unknown English text key.");
+    throw new TypeError(
+      await resolveMessage(messageSymbol("errors.unknown_english_text_key")),
+    );
   }
   if (value === null) {
     await Translations.delete().where(Translations.package, "=", packageId)
@@ -46,7 +52,11 @@ export async function saveTranslation(
         JSON.stringify(variables(source[key]!))
     ) {
       throw new TypeError(
-        "Translation must contain text and the same variables as English.",
+        await resolveMessage(
+          messageSymbol(
+            "errors.translation_must_contain_text_and_the_same_variables_as_english",
+          ),
+        ),
       );
     }
     await Translations.insert({

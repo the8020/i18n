@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paketin İngilizce kataloğu yok.",
     "languages.defaultLoginLanguage": "Varsayılan giriş dili",
     "languages.defaultLoginLanguageHelp": "Bu tarayıcıda kaydedilmiş bir seçim yoksa giriş ekranında kullanılacak dil.",
-    "validation.login_language_enabled": "Varsayılan giriş dili etkin olmalıdır."
+    "validation.login_language_enabled": "Varsayılan giriş dili etkin olmalıdır.",
+    "errors.invalid_package_id": "Geçersiz paket kimliği.",
+    "errors.unknown_english_text_key": "Bilinmeyen İngilizce metin anahtarı.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Tercüme metni ve İngilizce ile aynı değişkenleri içermelidir."
   }
 }

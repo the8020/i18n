@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "แพ็กเกจไม่มีแค็ตตาล็อกภาษาอังกฤษ",
     "languages.defaultLoginLanguage": "ภาษาเริ่มต้นหน้าเข้าสู่ระบบ",
     "languages.defaultLoginLanguageHelp": "ภาษาของหน้าเข้าสู่ระบบเมื่อเบราว์เซอร์นี้ยังไม่มีตัวเลือกที่บันทึกไว้",
-    "validation.login_language_enabled": "ต้องเปิดใช้งานภาษาเริ่มต้นหน้าเข้าสู่ระบบ"
+    "validation.login_language_enabled": "ต้องเปิดใช้งานภาษาเริ่มต้นหน้าเข้าสู่ระบบ",
+    "errors.invalid_package_id": "บัตรประจํากระเป๋าไม่ถูกต้อง",
+    "errors.unknown_english_text_key": "คีย์ข้อความภาษาอังกฤษไม่ทราบ",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "การแปลต้องมีข้อความและตัวแปรที่เหมือนกันกับภาษาอังกฤษ"
   }
 }

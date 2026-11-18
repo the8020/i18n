@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Balíček nemá anglický katalóg.",
     "languages.defaultLoginLanguage": "Predvolený jazyk prihlásenia",
     "languages.defaultLoginLanguageHelp": "Jazyk prihlasovacej obrazovky, ak tento prehliadač nemá uloženú voľbu.",
-    "validation.login_language_enabled": "Predvolený jazyk prihlásenia musí byť povolený."
+    "validation.login_language_enabled": "Predvolený jazyk prihlásenia musí byť povolený.",
+    "errors.invalid_package_id": "Neplatný identifikačný kód balenia.",
+    "errors.unknown_english_text_key": "Neznámy anglický textový kľúč.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Preklad musí obsahovať text a rovnaké premenné ako angličtina."
   }
 }

@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "El paquete no tiene catálogo en inglés.",
     "languages.defaultLoginLanguage": "Idioma predeterminado de inicio de sesión",
     "languages.defaultLoginLanguageHelp": "Idioma de la pantalla de inicio de sesión cuando este navegador no tiene una elección guardada.",
-    "validation.login_language_enabled": "El idioma predeterminado de inicio de sesión debe estar habilitado."
+    "validation.login_language_enabled": "El idioma predeterminado de inicio de sesión debe estar habilitado.",
+    "errors.invalid_package_id": "Identificación de paquete inválida.",
+    "errors.unknown_english_text_key": "Clave de texto en inglés desconocida.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "La traducción debe contener texto y las mismas variables que en inglés."
   }
 }

@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Пакетът няма английски каталог.",
     "languages.defaultLoginLanguage": "Език за вход по подразбиране",
     "languages.defaultLoginLanguageHelp": "Езикът на екрана за вход, когато браузърът няма запазен избор.",
-    "validation.login_language_enabled": "Езикът за вход по подразбиране трябва да е включен."
+    "validation.login_language_enabled": "Езикът за вход по подразбиране трябва да е включен.",
+    "errors.invalid_package_id": "Невалидна идентификационна карта за опаковката.",
+    "errors.unknown_english_text_key": "Неизвестен английски текстовен ключ.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Преводът трябва да съдържа текст и същите променливи като английският."
   }
 }

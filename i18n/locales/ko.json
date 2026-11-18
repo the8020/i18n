@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "패키지에 영어 카탈로그가 없습니다.",
     "languages.defaultLoginLanguage": "기본 로그인 언어",
     "languages.defaultLoginLanguageHelp": "이 브라우저에 저장된 선택이 없을 때 로그인 화면에 사용할 언어입니다.",
-    "validation.login_language_enabled": "기본 로그인 언어는 사용 설정되어 있어야 합니다."
+    "validation.login_language_enabled": "기본 로그인 언어는 사용 설정되어 있어야 합니다.",
+    "errors.invalid_package_id": "유효하지 않은 패키지 ID",
+    "errors.unknown_english_text_key": "영어 텍스트 키가 알려지지 않았습니다.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "번역은 텍스트와 영어와 동일한 변수를 포함해야 합니다."
   }
 }

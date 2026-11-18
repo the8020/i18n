@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "O pacote não tem catálogo em inglês.",
     "languages.defaultLoginLanguage": "Idioma padrão de login",
     "languages.defaultLoginLanguageHelp": "Idioma da tela de login quando este navegador não tem uma escolha salva.",
-    "validation.login_language_enabled": "O idioma padrão de login deve estar ativado."
+    "validation.login_language_enabled": "O idioma padrão de login deve estar ativado.",
+    "errors.invalid_package_id": "Identificação de pacote inválida.",
+    "errors.unknown_english_text_key": "Chave de texto inglês desconhecido.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "A tradução deve conter texto e as mesmas variáveis que o inglês."
   }
 }

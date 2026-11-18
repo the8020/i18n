@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Balíček nemá anglický katalog.",
     "languages.defaultLoginLanguage": "Výchozí jazyk přihlášení",
     "languages.defaultLoginLanguageHelp": "Jazyk přihlašovací obrazovky, pokud tento prohlížeč nemá uloženou volbu.",
-    "validation.login_language_enabled": "Výchozí jazyk přihlášení musí být povolený."
+    "validation.login_language_enabled": "Výchozí jazyk přihlášení musí být povolený.",
+    "errors.invalid_package_id": "Neplatné ID balíčku.",
+    "errors.unknown_english_text_key": "Neznámý klíč anglického textu.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Překlad musí obsahovat text a stejné proměnné jako anglický originál."
   }
 }

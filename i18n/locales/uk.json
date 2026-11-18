@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Пакет не має англійського каталогу.",
     "languages.defaultLoginLanguage": "Типова мова входу",
     "languages.defaultLoginLanguageHelp": "Мова екрана входу, якщо в цьому браузері ще немає збереженого вибору.",
-    "validation.login_language_enabled": "Типову мову входу має бути ввімкнено."
+    "validation.login_language_enabled": "Типову мову входу має бути ввімкнено.",
+    "errors.invalid_package_id": "Недійний ідентифікатор упаковки.",
+    "errors.unknown_english_text_key": "Невідомий англійський текстовий ключ.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Переклад повинен містити текст і ті ж змінні, що і англійською мовою."
   }
 }
