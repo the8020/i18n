@@ -2,3 +2,4 @@ schema = 1
 description = "Languages"
 entrypoint = "program.ts"
 uui = true
+shortcut = "LANG"

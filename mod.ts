@@ -118,6 +118,12 @@ export function text(value: Text | undefined): string | undefined {
     : currentLocalization()?.text(value) ?? sourceText(value);
 }
 
+/** Resolve a message on demand, retaining source text outside a language scope. */
+export async function localizedText(value: Text): Promise<string> {
+  await prepareTexts(value);
+  return text(value);
+}
+
 function sourceText(value: import("./messages.ts").Message): string {
   return value.fallback === undefined
     ? `[!${value.package}:${value.key}]`
