@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Gói không có danh mục tiếng Anh.",
     "languages.defaultLoginLanguage": "Ngôn ngữ đăng nhập mặc định",
     "languages.defaultLoginLanguageHelp": "Ngôn ngữ màn hình đăng nhập khi trình duyệt chưa lưu lựa chọn.",
-    "validation.login_language_enabled": "Ngôn ngữ đăng nhập mặc định phải được bật."
+    "validation.login_language_enabled": "Ngôn ngữ đăng nhập mặc định phải được bật.",
+    "errors.invalid_package_id": "Thẻ xác nhận gói không hợp lệ.",
+    "errors.unknown_english_text_key": "Chìa khóa văn bản tiếng Anh không biết.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Bản dịch phải có văn bản và các biến tương tự như tiếng Anh."
   }
 }

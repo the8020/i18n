@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "पैकेज में अंग्रेज़ी कैटलॉग नहीं है।",
     "languages.defaultLoginLanguage": "लॉगिन की डिफ़ॉल्ट भाषा",
     "languages.defaultLoginLanguageHelp": "जब ब्राउज़र में कोई चयन सहेजा न हो तब लॉगिन स्क्रीन की भाषा।",
-    "validation.login_language_enabled": "लॉगिन की डिफ़ॉल्ट भाषा सक्षम होनी चाहिए।"
+    "validation.login_language_enabled": "लॉगिन की डिफ़ॉल्ट भाषा सक्षम होनी चाहिए।",
+    "errors.invalid_package_id": "अवैध पैकेज आईडी।",
+    "errors.unknown_english_text_key": "अज्ञात अंग्रेजी पाठ कुंजी।",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "अनुवाद में पाठ और अंग्रेजी के समान चर होना चाहिए।"
   }
 }

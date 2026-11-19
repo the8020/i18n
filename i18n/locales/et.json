@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paketil pole ingliskeelset kataloogi.",
     "languages.defaultLoginLanguage": "Sisselogimise vaikekeel",
     "languages.defaultLoginLanguageHelp": "Sisselogimiskuva keel, kui selles brauseris pole valikut salvestatud.",
-    "validation.login_language_enabled": "Sisselogimise vaikekeel peab olema lubatud."
+    "validation.login_language_enabled": "Sisselogimise vaikekeel peab olema lubatud.",
+    "errors.invalid_package_id": "Vaevalt pakendi ID.",
+    "errors.unknown_english_text_key": "Teadmata inglise keele teksti võtme.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Kõlge peab sisaldama teksti ja sama muutuja kui inglise keel."
   }
 }

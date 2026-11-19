@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakken har intet engelsk katalog.",
     "languages.defaultLoginLanguage": "Standardsprog ved login",
     "languages.defaultLoginLanguageHelp": "Sproget på loginskærmen, når denne browser ikke har et gemt valg.",
-    "validation.login_language_enabled": "Standardsproget ved login skal være aktiveret."
+    "validation.login_language_enabled": "Standardsproget ved login skal være aktiveret.",
+    "errors.invalid_package_id": "Ugyldig pakketid.",
+    "errors.unknown_english_text_key": "Ukendt engelsk tekstnøgle.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Oversættelsen skal indeholde tekst og de samme variabler som engelsk."
   }
 }

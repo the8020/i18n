@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "A csomagnak nincs angol katalógusa.",
     "languages.defaultLoginLanguage": "Bejelentkezés alapnyelve",
     "languages.defaultLoginLanguageHelp": "A bejelentkezési képernyő nyelve, ha a böngészőben még nincs mentett választás.",
-    "validation.login_language_enabled": "A bejelentkezés alapnyelvének engedélyezettnek kell lennie."
+    "validation.login_language_enabled": "A bejelentkezés alapnyelvének engedélyezettnek kell lennie.",
+    "errors.invalid_package_id": "Nem érvényes csomag azonosító.",
+    "errors.unknown_english_text_key": "Nem ismert angol szövegkulcs.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "A fordításnak tartalmaznia kell a szöveget és ugyanazokat a változókat, mint az angol."
   }
 }

@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakej tiada katalog Inggeris.",
     "languages.defaultLoginLanguage": "Bahasa lalai log masuk",
     "languages.defaultLoginLanguageHelp": "Bahasa skrin log masuk apabila pelayar ini tiada pilihan tersimpan.",
-    "validation.login_language_enabled": "Bahasa lalai log masuk mesti didayakan."
+    "validation.login_language_enabled": "Bahasa lalai log masuk mesti didayakan.",
+    "errors.invalid_package_id": "ID pakej yang tidak sah.",
+    "errors.unknown_english_text_key": "Kunci teks bahasa Inggeris yang tidak diketahui.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Terjemahan mesti mengandungi teks dan variabel yang sama seperti bahasa Inggeris."
   }
 }

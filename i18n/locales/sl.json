@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paket nima angleškega kataloga.",
     "languages.defaultLoginLanguage": "Privzeti jezik prijave",
     "languages.defaultLoginLanguageHelp": "Jezik prijavnega zaslona, ko ta brskalnik nima shranjene izbire.",
-    "validation.login_language_enabled": "Privzeti jezik prijave mora biti omogočen."
+    "validation.login_language_enabled": "Privzeti jezik prijave mora biti omogočen.",
+    "errors.invalid_package_id": "Neveljavna identifikacija paketa.",
+    "errors.unknown_english_text_key": "Neznan angleški besedilni ključ.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Prevod mora vsebovati besedilo in iste spremenljivke kot v angleščini."
   }
 }

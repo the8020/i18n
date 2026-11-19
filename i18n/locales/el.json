@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Το πακέτο δεν έχει αγγλικό κατάλογο.",
     "languages.defaultLoginLanguage": "Προεπιλεγμένη γλώσσα εισόδου",
     "languages.defaultLoginLanguageHelp": "Η γλώσσα της οθόνης εισόδου όταν το πρόγραμμα περιήγησης δεν έχει αποθηκευμένη επιλογή.",
-    "validation.login_language_enabled": "Η προεπιλεγμένη γλώσσα εισόδου πρέπει να είναι ενεργοποιημένη."
+    "validation.login_language_enabled": "Η προεπιλεγμένη γλώσσα εισόδου πρέπει να είναι ενεργοποιημένη.",
+    "errors.invalid_package_id": "Απαράβλητη ταυτότητα πακέτου.",
+    "errors.unknown_english_text_key": "Άγνωστο αγγλικό κείμενο.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Η μετάφραση πρέπει να περιέχει κείμενο και τις ίδιες μεταβλητές με την αγγλική."
   }
 }

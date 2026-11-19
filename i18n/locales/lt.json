@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paketas neturi angliško katalogo.",
     "languages.defaultLoginLanguage": "Numatytoji prisijungimo kalba",
     "languages.defaultLoginLanguageHelp": "Prisijungimo ekrano kalba, kai ši naršyklė neturi išsaugoto pasirinkimo.",
-    "validation.login_language_enabled": "Numatytoji prisijungimo kalba turi būti įjungta."
+    "validation.login_language_enabled": "Numatytoji prisijungimo kalba turi būti įjungta.",
+    "errors.invalid_package_id": "Negalima pakuotės identifikacija.",
+    "errors.unknown_english_text_key": "Nepažįstamas anglų teksto raktas.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Vertinimas turi turėti tekstą ir tuos pačius kintamuosius, kaip ir anglų kalba."
   }
 }

@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pachetul nu are catalog în engleză.",
     "languages.defaultLoginLanguage": "Limba implicită de autentificare",
     "languages.defaultLoginLanguageHelp": "Limba ecranului de autentificare când acest browser nu are o alegere salvată.",
-    "validation.login_language_enabled": "Limba implicită de autentificare trebuie să fie activată."
+    "validation.login_language_enabled": "Limba implicită de autentificare trebuie să fie activată.",
+    "errors.invalid_package_id": "Identificarea de pachet nu validă.",
+    "errors.unknown_english_text_key": "Cheie de text engleză necunoscută.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Traducerea trebuie să conțină textul și aceleași variabile ca și în limba engleză."
   }
 }

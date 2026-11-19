@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paket nema engleski katalog.",
     "languages.defaultLoginLanguage": "Zadani jezik prijave",
     "languages.defaultLoginLanguageHelp": "Jezik zaslona za prijavu kada ovaj preglednik nema spremljen odabir.",
-    "validation.login_language_enabled": "Zadani jezik prijave mora biti omogućen."
+    "validation.login_language_enabled": "Zadani jezik prijave mora biti omogućen.",
+    "errors.invalid_package_id": "Nevaljan identifikacijski znak paketa.",
+    "errors.unknown_english_text_key": "Nepoznat engleski tekst ključ.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Prevod mora sadržavati tekst i iste promjenljive kao i engleski."
   }
 }

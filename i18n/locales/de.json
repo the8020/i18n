@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Das Paket hat keinen englischen Katalog.",
     "languages.defaultLoginLanguage": "Standard-Anmeldesprache",
     "languages.defaultLoginLanguageHelp": "Sprache der Anmeldeseite, wenn in diesem Browser noch keine Auswahl gespeichert ist.",
-    "validation.login_language_enabled": "Die Standard-Anmeldesprache muss aktiviert sein."
+    "validation.login_language_enabled": "Die Standard-Anmeldesprache muss aktiviert sein.",
+    "errors.invalid_package_id": "Ungültige Paket-Id.",
+    "errors.unknown_english_text_key": "Unbekannter englischer Textschlüssel.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Die Übersetzung muss Text und die gleichen Variablen wie die englische enthalten."
   }
 }

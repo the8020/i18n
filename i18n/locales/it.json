@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Il pacchetto non ha un catalogo inglese.",
     "languages.defaultLoginLanguage": "Lingua predefinita di accesso",
     "languages.defaultLoginLanguageHelp": "Lingua della schermata di accesso quando questo browser non ha una scelta salvata.",
-    "validation.login_language_enabled": "La lingua predefinita di accesso deve essere abilitata."
+    "validation.login_language_enabled": "La lingua predefinita di accesso deve essere abilitata.",
+    "errors.invalid_package_id": "Identificazione del pacchetto invalida.",
+    "errors.unknown_english_text_key": "Chiave di testo inglese sconosciuta.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "La traduzione deve contenere il testo e le stesse variabili dell'inglese."
   }
 }

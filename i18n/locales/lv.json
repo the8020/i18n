@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Pakotnei nav angļu valodas kataloga.",
     "languages.defaultLoginLanguage": "Pieteikšanās noklusējuma valoda",
     "languages.defaultLoginLanguageHelp": "Pieteikšanās ekrāna valoda, ja šajā pārlūkā nav saglabātas izvēles.",
-    "validation.login_language_enabled": "Pieteikšanās noklusējuma valodai jābūt iespējotai."
+    "validation.login_language_enabled": "Pieteikšanās noklusējuma valodai jābūt iespējotai.",
+    "errors.invalid_package_id": "Neatbilstoša pakete.",
+    "errors.unknown_english_text_key": "Neatcerēts angļu valodas teksta atslēgas.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Piemērojot šo noteikumu, tulkojums ir jāpiemēro."
   }
 }

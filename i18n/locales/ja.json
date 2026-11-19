@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "パッケージに英語カタログがありません。",
     "languages.defaultLoginLanguage": "ログイン画面の既定言語",
     "languages.defaultLoginLanguageHelp": "このブラウザーで言語を保存していない場合のログイン画面の言語。",
-    "validation.login_language_enabled": "ログイン画面の既定言語は有効である必要があります。"
+    "validation.login_language_enabled": "ログイン画面の既定言語は有効である必要があります。",
+    "errors.invalid_package_id": "パッケージIDが無効です",
+    "errors.unknown_english_text_key": "英語のテキストキーが不明",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "翻訳にはテキストと英語と同じ変数が含まれなければならない."
   }
 }

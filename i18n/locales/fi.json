@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "Paketilla ei ole englanninkielistä luetteloa.",
     "languages.defaultLoginLanguage": "Kirjautumisen oletuskieli",
     "languages.defaultLoginLanguageHelp": "Kirjautumissivun kieli, kun selaimeen ei ole tallennettu valintaa.",
-    "validation.login_language_enabled": "Kirjautumisen oletuskielen on oltava käytössä."
+    "validation.login_language_enabled": "Kirjautumisen oletuskielen on oltava käytössä.",
+    "errors.invalid_package_id": "Epävirallinen pakkaus- tunnus.",
+    "errors.unknown_english_text_key": "Englanninkielinen tekstisys.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "Käännön on oltava tekstiä ja samanlaisia muuttujia kuin englanninkielinen."
   }
 }

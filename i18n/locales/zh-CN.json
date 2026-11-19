@@ -47,6 +47,9 @@
     "ui.package_has_no_english_catalog": "软件包没有英语目录。",
     "languages.defaultLoginLanguage": "默认登录语言",
     "languages.defaultLoginLanguageHelp": "此浏览器未保存语言选择时，登录屏幕使用的语言。",
-    "validation.login_language_enabled": "默认登录语言必须已启用。"
+    "validation.login_language_enabled": "默认登录语言必须已启用。",
+    "errors.invalid_package_id": "无效的包装身份证.",
+    "errors.unknown_english_text_key": "不知名的英语文本键.",
+    "errors.translation_must_contain_text_and_the_same_variables_as_english": "翻译必须包含文字和与英语相同的变量."
   }
 }
